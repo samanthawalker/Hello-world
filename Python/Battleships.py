@@ -42,7 +42,7 @@ def get_orientation():
     # Checks if the input == 1, if it does then it returns
     # the integer 1 (which maps to vertical),
     # if not it returns the integer 2 (which maps to horizontal.)
-    return o=="1" and 1 or 2
+    return o
     
 def print_board(board):
     # Prints a board (based on input)
